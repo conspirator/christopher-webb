@@ -10,20 +10,11 @@ server:
 	coffee app.coffee
 
 clean:
-	rm -rf css
-	rm -rf images
-	rm -rf js
-	rm index.html
-	rm CNAME
+	rm -rf css images js
+	rm index.html humans.txt CNAME
 
 deploy:
-	rm -rf node_modules
-	rm -rf src
-	rm app.coffee
-	rm Gruntfile.coffee
-	rm package.json
-	rm README.md
 	mv public/* .
-	rm -rf public
-	rm Makefile
+	rm -rf node_modules src public
+	rm app.coffee Gruntfile.coffee package.json README.md Makefile
 	say 'boom'
