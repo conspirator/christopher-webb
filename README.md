@@ -1,5 +1,5 @@
 # [christopher-webb.com](http://christopher-webb.com)
-Built using Launchpad, a development framework engineered for rapid prototyping.
+Built using [Launchpad](https://github.com/conspirator/launchpad), a development framework engineered for rapid prototyping.
 
 ## Environmental Dependencies
 - [node.js 0.8.8+](http://nodejs.org/dist/v0.8.8/node-v0.8.8.pkg)
